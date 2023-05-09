@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <style>
+        /* element {
+            property: value;
+        } */
+        h1 {
+            color: pink; 
+            text-align: center;
+        }
+        /* colours can be chosen using either writing the name of the colour that is 
+        available to the CSS and HTML library, or RGB and HEX codes which you can find the
+        specifics of on the internet */
+
+        #title {
+            color: purple;
+            font-size: 50px;
+            border: 2px solid;
+        }
+
+        /* the difference betweeen a class and an id is that a class can be reused wheras an
+        id is unique */
+
+        .navlinks {
+            color: pink;
+            font-size: 25px;
+        }
+        
+        .navlinks:hover {
+            color: blue; 
+        }
+
+        button:hover {
+            background-color: pink;
+        }
+
+        #bobthebuilder {
+            /* width: 200px;
+            height: 300px;  */
+
+            width: 20vh;
+            height: 30vh;
+        }
+        
+        /* "vh" adjusts and images size relative to the screensize in our case, however can be adjustsed for
+        size relative to a parent element. */
+
+
+        /* a pseudo class modifies an element to a special state */
+
+    </style>
+</head>
+<body>
+    <h1 id="title">Cherry's Bakeshop</h1>
+    <nav>
+        <a class="navlinks" href="">Home</a>
+        <a class="navlinks" href="">About</a>
+        <a class="navlinks" href="">Online Order</a>
+        <a class="navlinks" href="">Where to Find Us</a>
+        <br><br><br>
+        <button>Click Me</button>
+
+        <img id="bobthebuilder" src="Images/Bob The Builder.jpg"> 
+    </nav> 
+</body>
+</html>
+

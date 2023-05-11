@@ -1,3 +1,40 @@
 ol li:last-child {
     color: orange;
 }
+
+:root {
+    font-size: 20px;
+}
+
+/* .parent {
+    font-size: 10px;
+} */
+
+
+/* .child2 {
+    font-size: 2rem;
+}
+
+.child3 {
+    font-size: 2em;
+} */
+
+.child {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.parent {
+    display: flex; 
+    height: 450px;
+    flex-wrap: wrap; /*(does not account the modifications of the elments caused by flex and limitations of screen size, fixes by extending the elments into another row) */
+    list-style-type: none;
+    justify-content: space-between; /*(creates spaces between the elemetns)*/
+    /* flex-direction: column; (changes the list or text to a column) */
+    border: 1px solid red; 
+}
+
+horizontal -> row: justify-content 
+verical -> height: align--items

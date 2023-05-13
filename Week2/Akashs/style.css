@@ -1,0 +1,85 @@
+/* default style */
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* instagram image icon */
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
+  
+  /* Flow of the elements */
+  
+  .login-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 48px 8px 24px 8px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-checkbox {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .login-form-checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .sign-in-with-sso {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* spacing of the elements */
+  
+  .img-header {
+    margin: 48px 0;
+  }
+  
+  .welcome {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .message-register {
+    color: grey;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 20px 0 48px 0;
+  }
+  
+  .login-form-input label {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  .login-form-input input {
+    border: 1px solid rgb(218, 206, 206);
+    font-size: 20px;
+    outline: none;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 2px 6px;
+  }
+  
+  .login-form-checkbox label {
+    margin-left: 8px;
+  }
+  

@@ -5,16 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoderAcademy May 2023 - Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="login-message">
-        <img class="icon" src="https://tinyurl.com/bdk7mcps" alt="icon">
+        <img class="logo img-header" src="https://tinyurl.com/bdk7mcps" alt="">
         <h4 class="login-header">Hey, hello</h4>
         <p class="message-register">Enter the information you entered while registering.</p>
-    </section>
+    
     <form class="login-form">
-        <label>Email</label>
-        <input type="text" 
+
+        <div class="login-form-input">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        </div>
+
+
+        <div class="login-form-input">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        </div>
+
+                
+      <div class="login-form-input input-checkbox">
+        <div class="login-form-checkbox">
+          <label for="checkbox">Remember me</label>
+          <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+        <a href="/forgot-password">Forgot Password</a>
+      </div>
+      <input type="button" value="Login">
     </form>
+
+
+        <!-- <div class="login-form-input input-checkbox">
+        <label for="checkbox">Remember Me</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <a href="/forgot-password">Forgot Password?</a>
+        </div>
+        <input type="button" value="login">
+     </form> -->
+
+    <div class="sign-in-with-sso"></div>
+        <img class="icon" src="https://tinyurl.com/2ykrdydm" alt="">
+     <a href="/sign-in-with-google">Sign in with Google</a>
+    </div>
+    </section>
 </body>
 </html>
+
+<div class="login-form-input">
+
+</div>

@@ -1,9 +1,60 @@
-.icon {
+.logo {
     width: 50px;
     height: 50px;
 }
 
-img {
-    width: 50px;
-    height: 50px;
-}
+.login-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form-input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-checkbox {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .sign-in-with-sso {
+    display: flex;
+    align-items: center;
+  }
+
+  /* spacing of the elements */
+
+.img-header {
+    margin: 48px 0;
+  }
+  
+  .welcome {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  .message-register {
+    color: grey;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 20px 0 48px 0;
+  }
+  
+  .login-form-input label {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  .login-form-input input {
+    border: 1px solid grey;
+    font-size: 24px;
+    font-weight: 100;
+    outline: none;
+  }
+  

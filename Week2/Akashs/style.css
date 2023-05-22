@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   /* instagram image icon */
@@ -24,6 +28,7 @@
   .login-form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 36px;
   }
   
   .login-form-input {
@@ -42,10 +47,10 @@
     flex-direction: row-reverse;
   }
   
-  .sign-in-with-sso {
+  /* .sign-in-with-sso {
     display: flex;
     align-items: center;
-  }
+  } */
   
   /* spacing of the elements */
   
@@ -55,7 +60,7 @@
   
   .welcome {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
   }
   
   .message-register {
@@ -66,7 +71,7 @@
   }
   
   .login-form-input label {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 20px;
   }
   
@@ -81,5 +86,50 @@
   
   .login-form-checkbox label {
     margin-left: 8px;
+  }
+  
+  .forgot-password {
+    text-decoration: none;
+    color: #9C27B0;
+  }
+  
+  .forgot-password:hover,
+  .forgot-password:active {
+    color: #b82fd0;
+  }
+  
+  .login-form .login-btn {
+    background-image: linear-gradient(45deg, #2196F3, #9C27B0);
+    padding: 16px 0;
+    color: white;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .login-form .login-btn:hover,
+  .login-form .login-btn:active {
+    background-image: linear-gradient(45deg, #2196F3, #b867c7);
+  }
+  
+  .sso-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(208, 207, 207);
+    height: 54px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  
+  .sso-login:hover,
+  .sso-login:active {
+    border: 2px solid rgb(139, 139, 139);
+  }
+  
+  /* hide all the desktop elements */
+  .login-image {
+    display: none;
   }
   

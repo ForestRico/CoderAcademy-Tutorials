@@ -1,0 +1,5 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* when it comes to font-family, the fonts following are the next in line fonts to be executed if the initial font isn't valid for the browser/device*/
